@@ -37,15 +37,15 @@ selected = option_menu(
     }   
 )
 
-# Render content based on navigation
-if selected == "Home":
-    h2.home2()
+# # Render content based on navigation
+# if selected == "Home":
+#     h2.home2()
 
-elif selected == "AI/ML Projects":
-    pr.projects()
+# elif selected == "AI/ML Projects":
+#     pr.projects()
 
-elif selected == "About Me":
-    ab.about()
+# elif selected == "About Me":
+#     ab.about()
 
-elif selected == "Get in Touch":
-    co.connect()
+# elif selected == "Get in Touch":
+#     co.connect()
