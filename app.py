@@ -25,6 +25,7 @@ st.markdown(
     .custom-font {
         font-family: 'Atma', cursive;
         font-size: 50px;
+        text-align: center;
     }
     </style>
     """,
