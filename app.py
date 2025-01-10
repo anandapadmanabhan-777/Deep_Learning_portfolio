@@ -4,8 +4,8 @@ from streamlit_option_menu import option_menu
 from keras.models import load_model
 # import about as ab
 # import connect as co
-# import home2 as h2
-# import projects as pr
+import home2 as h2
+import projects as pr
 
 
 # Set up page configuration
@@ -59,11 +59,11 @@ if selected== "Home":
         unsafe_allow_html=True,
     )
 # # Render content based on navigation
-# if selected == "Home":
-#     h2.home2()
+if selected == "Home":
+     h2.home2()
 
-# elif selected == "AI/ML Projects":
-#     pr.projects()
+elif selected == "AI/ML Projects":
+    pr.projects()
 
 # elif selected == "About Me":
 #     ab.about()
