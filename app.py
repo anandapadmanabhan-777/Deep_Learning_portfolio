@@ -23,7 +23,7 @@ st.markdown(
     @import url('https://fonts.googleapis.com/css2?family=Atma:wght@300;400;700&display=swap');
 
     .custom-font {
-        font-family: 'Atma', cursive;
+        font-family: 'Atma', cursive !important;
         font-size: 50px;
         text-align: center;
     }
