@@ -17,6 +17,19 @@ st.set_page_config(
 # css_path = os.path.join(os.path.dirname(__file__), "styles.css")
 # with open(css_path, "r") as f:
 #     st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
+st.markdown(
+    """
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Atma:wght@300;400;700&display=swap');
+
+    .custom-font {
+        font-family: 'Atma', cursive;
+        font-size: 50px;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 
 # Injecting custom CSS
 with open("styles.css") as f:
@@ -39,7 +52,7 @@ selected = option_menu(
 if selected== "Home":
     st.markdown(
         """
-        <h1 class= "custom-heading"> Hii, Welcome </h1>
+        <h1 class= "custom-font"> Hii, Welcome </h1>
        
         """,
         unsafe_allow_html=True,
