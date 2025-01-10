@@ -36,7 +36,14 @@ selected = option_menu(
         "nav-link-selected": {"background-color": "#ffe9c9", "color": "black",},        
     }   
 )
-
+if selected== "Home":
+    st.markdown(
+        """
+        <h1 class= "custom-heading"> Hii, Welcome </h1>
+       
+        """,
+        unsafe_allow_html=True,
+    )
 # # Render content based on navigation
 # if selected == "Home":
 #     h2.home2()
