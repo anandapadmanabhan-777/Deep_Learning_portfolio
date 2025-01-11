@@ -8,6 +8,14 @@ def projects():
     try:
         churn_model = load_model('churn_model.keras')
         st.success("Model loaded successfully.")
+        st.markdown(
+        """
+        <h1 class="custom-heading2">Customer Churn Prediction</h1>
+        <h3 class="custom-subheader">Customer Churn Model Loaded..!!</h3>
+        <h3 class="custom-subheader">Fill out the form below to predict whether a customer will churn or not.</h3>
+        """,
+        unsafe_allow_html=True,
+    )
     except Exception as e:
         st.error(f"Error loading the model: {e}")
         churn_model = None  # Set the model to None if it fails to load
