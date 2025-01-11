@@ -8,9 +8,9 @@ def home2():
     
     <br>
     <h1 class= "name-heading">Hello, I'm<br> Anandapadmanabhan..!!</h1><br>
-    <div class="content-wrapper">
-        <h3 class="custom-lines">Python Developer | Aspiring AI/ML Engineer | Full Stack Python Developer &nbsp; 💻🧠<br><br>       
-    </div>
+    
+    <h3 class="custom-lines">Python Developer | Aspiring AI/ML Engineer | Full Stack Python Developer &nbsp; 💻🧠<br><br>       
+    
     <br>
     <div class="social-icons" style="display: flex; justify-content: center; gap: 20px; margin-top: 20px;">
         <div>
