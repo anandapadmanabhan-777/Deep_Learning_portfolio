@@ -6,7 +6,7 @@ import numpy as np
 def mnist_page():
     st.markdown(
         """
-        <h1 class="custom-heading2">MNIST Digit Recognizer</h1>
+        <h1 class="name-heading">MNIST Digit Recognizer</h1>
         <h3 class="custom-subheader">Upload an image of a handwritten digit (0-9) for classification.</h3>
         """,
         unsafe_allow_html=True,
