@@ -10,8 +10,8 @@ def projects():
         st.success("Model loaded successfully.")
         st.markdown(
         """
-        <h1 class="custom-heading2">Customer Churn Prediction</h1>
-        <h3 class="custom-subheader">Customer Churn Model Loaded..!!</h3>
+        <h1 class="name-heading">Customer Churn Prediction</h1>
+        <h3 class="custom-subheader">Customer Churn Model Loaded Successfully..!!</h3>
         <h3 class="custom-subheader">Fill out the form below to predict whether a customer will churn or not.</h3>
         """,
         unsafe_allow_html=True,
