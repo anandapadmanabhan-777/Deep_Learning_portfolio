@@ -9,8 +9,7 @@ def fraud_detect_page():
         st.success("Model loaded successfully.")
         st.markdown(
             """
-            <h1 class="custom-heading2">Credit Card Fraud Detection</h1>
-            <h3 class="custom-subheader">Fraud Detection Model Loaded..!!</h3>
+            <h1 class="name-heading">Credit Card Fraud Detection</h1>
             <h3 class="custom-subheader">Fill out the form below to predict whether a transaction is fraudulent or not.</h3>
             """,
             unsafe_allow_html=True,
