@@ -2,7 +2,7 @@
 import streamlit as st
 # import fashion_page as fa
 # import mnist_page as mn
-# import fraud_page as fr
+import fraud_detect_page as fr
 import churn_page as ch
 
 def projects():
@@ -48,11 +48,11 @@ def projects():
             st.session_state.selected_project = "None"
             st.rerun()
 
-    # elif st.session_state.selected_project == "Credit Card Fraud":
-    #     fr.fraud_page()
-    #     if st.button("Back to Projects"):
-    #         st.session_state.selected_project = "None"
-    #         st.rerun()
+    elif st.session_state.selected_project == "Credit Card Fraud":
+        fr.fraud_detect_page()
+        if st.button("Back to Projects"):
+            st.session_state.selected_project = "None"
+            st.rerun()
 
     # elif st.session_state.selected_project == "MNIST":
     #     mn.mnist_page()
