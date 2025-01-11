@@ -46,7 +46,7 @@
     font-family: 'Atma', cursive !important;
     font-size: 50px !important;
     text-align: center;
-    color: #cec7ae !important;
+    
     
 }
 
@@ -55,7 +55,7 @@
     font-family: 'Atma', cursive !important;
     font-size: 40px;
     text-align: left;
-    
+    color: #cec7ae !important;
 }
 
 /* Custom Paragraphs Style */
