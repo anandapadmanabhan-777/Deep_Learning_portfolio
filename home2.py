@@ -3,9 +3,9 @@ import streamlit as st
 def home2():
     st.markdown(
     """
-    <div class="content-container2">
-        <h1 class="custom-heading">Welcome to My AI Portfolio..!!</h1>
-    </div>
+    
+    <h1 class="custom-heading">Welcome to My AI Portfolio..!!</h1>
+    
     <br>
     <h1 class= "custom-heading2">Hello, I'm<br> Anandapadmanabhan..!!</h1><br>
     <div class="content-wrapper">
