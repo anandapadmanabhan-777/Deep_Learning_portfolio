@@ -2,7 +2,7 @@ import streamlit as st
 from streamlit_option_menu import option_menu
 from keras.models import load_model
 import about as ab
-# import connect as co
+import connect as co
 import home2 as h2
 import projects as pr
 
@@ -12,7 +12,7 @@ st.set_page_config(
     page_title="Deep Learning Model Portfolio", 
     page_icon="https://github.com/anandapadmanabhan-777/JustAnImage/raw/main/ai_brain.png", 
     layout="wide")
-    
+
 # Injecting custom CSS
 with open("styles.css") as f:
     st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
@@ -42,5 +42,5 @@ elif selected == "AI/ML Projects":
 elif selected == "About Me":
     ab.about()
 
-# elif selected == "Get in Touch":
-#     co.connect()
+elif selected == "Get in Touch":
+    co.connect()
