@@ -9,7 +9,6 @@ def home():
     <h1 class= "name-heading">Hello, I'm<br> Anandapadmanabhan..!!</h1>
     <br>
     <h3 class="custom-lines">Python Developer | Aspiring AI/ML Engineer | Full Stack Python Developer &nbsp; 💻🧠
-    <br>
     """,
     unsafe_allow_html=True,    
 )
