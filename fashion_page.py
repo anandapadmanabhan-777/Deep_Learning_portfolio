@@ -7,7 +7,7 @@ import numpy as np
 def fashion_page():
     st.markdown(
         """
-        <h1 class="custom-heading2">Fashion-MNIST Classifier</h1>
+        <h1 class="name-heading">Fashion-MNIST Classifier</h1>
         <h3 class="custom-subheader">Upload an image of a fashion item to classify it.</h3>
         """,
         unsafe_allow_html=True,
