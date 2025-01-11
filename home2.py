@@ -5,13 +5,10 @@ def home2():
     """
     
     <h1 class="custom-heading">Welcome to My AI Portfolio..!!</h1>
-    
     <br>
-    <h1 class= "name-heading">Hello, I'm<br> Anandapadmanabhan..!!</h1><br>
-    
-    <h3 class="custom-lines">Python Developer | Aspiring AI/ML Engineer | Full Stack Python Developer &nbsp; 💻🧠<br><br>       
-    
+    <h1 class= "name-heading">Hello, I'm<br> Anandapadmanabhan..!!</h1>
     <br>
+    <h3 class="custom-lines">Python Developer | Aspiring AI/ML Engineer | Full Stack Python Developer &nbsp; 💻🧠<br><br><br>
     <div class="social-icons" style="display: flex; justify-content: center; gap: 20px; margin-top: 20px;">
         <div>
             <a href="https://www.linkedin.com/in/anandapadmanabhan-s-43959522a/" target="_blank">
