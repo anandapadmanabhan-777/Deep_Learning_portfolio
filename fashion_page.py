@@ -15,7 +15,7 @@ def fashion_page():
 
     try:
         # Attempt to load the Fashion-MNIST model
-        fashion_mnist_model = load_model('models/fashion_mnist_model.keras')
+        fashion_mnist_model = load_model('fashion_mnist_model.keras')
         st.success("Fashion-MNIST Model loaded successfully.")
     except Exception as e:
         st.error(f"Error loading the model: {e}")
