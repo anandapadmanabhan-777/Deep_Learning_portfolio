@@ -3,7 +3,7 @@ from streamlit_option_menu import option_menu
 from keras.models import load_model
 import about as ab
 import connect as co
-import home2 as h2
+import home as ho
 import projects as pr
 
 
@@ -34,7 +34,7 @@ selected = option_menu(
 
 # Render content based on navigation
 if selected == "Home":
-    h2.home2()
+    ho.home()
 
 elif selected == "AI/ML Projects":
     pr.projects()
