@@ -197,12 +197,6 @@ footer { visibility: hidden; }
     color: white;
 }
 
-/* Wrapper to hold both items side by side */
-.content-wrapper {
-    display: flex; /* Use flexbox to align items side by side */
-    justify-content: space-between; /* Space out the items */
-    align-items: center; /* Vertically center them */
-}
 /* For Social Icons in Home Page */
 .social-icons {
     display: flex;
