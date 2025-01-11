@@ -1,10 +1,8 @@
 import streamlit as st 
 def connect():
     st.markdown("""
-    <div class="content-container2" style="margin-bottom: 50px;">
-        <h1 class="custom-heading">Contact Information</h1>
-        <br>    
-    </div>
+    <h1 class="custom-heading">Contact Information</h1>
+    <br>    
     
     <div style="text-align: center; display: flex; justify-content: center; gap: 20px; margin-top: 40px; margin-bottom: 40px;">
         <div style="margin-right: 20px;">
