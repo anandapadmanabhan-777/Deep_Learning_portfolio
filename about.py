@@ -42,7 +42,7 @@ def about():
     """
     <div class="content-container">
         <h1 class="custom-heading2">EDUCATION</h1>
-        <h4 class="custom-details"> &nbsp; ● BTech in Infomation Technology<br> &nbsp; ● Diploma in Computer Engineering</h4>
+        <h4 class="custom-details"> &nbsp; ● BTech in Infomation Technology<br> &nbsp; ● Diploma in Computer Engineering &nbsp; ● 12th - HSE&nbsp; ●10th - CBSE</h4>
     </div>
     """,
     unsafe_allow_html=True,
