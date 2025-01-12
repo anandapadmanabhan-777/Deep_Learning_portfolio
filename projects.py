@@ -4,6 +4,7 @@ import fashion_page as fa
 import mnist_page as mn
 import fraud_detect_page as fr
 import churn_page as ch
+import temperature_page as te
 
 def projects():
     # Initialize session state for navigation
@@ -20,7 +21,7 @@ def projects():
             """, unsafe_allow_html=True)
 
         st.divider()
-        col1, col2, col3, col4 = st.columns(4)
+        col1, col2, col3, col4, col5 = st.columns(5)
 
         with col1:
             if st.button("Customer Churn Prediction"):
@@ -38,6 +39,11 @@ def projects():
             if st.button("Fashion-MNIST"):
                 st.session_state.selected_project = "Fashion-MNIST"
                 st.rerun()
+        with col5:
+            if st.button("Temperature Prediction"):
+                st.session_state.selected_project = "Temperature"
+                st.rerun()
+
 
     # Render Specific Project Page
     elif st.session_state.selected_project == "Customer Churn":
@@ -60,6 +66,11 @@ def projects():
 
     elif st.session_state.selected_project == "Fashion-MNIST":
         fa.fashion_page()
+        if st.button("Back to Projects"):
+            st.session_state.selected_project = "None"
+            st.rerun()
+    elif st.session_state.selected_project == "Temperature":
+        te.temperature_page()
         if st.button("Back to Projects"):
             st.session_state.selected_project = "None"
             st.rerun()
