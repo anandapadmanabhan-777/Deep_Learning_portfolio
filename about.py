@@ -5,10 +5,10 @@ def about():
     """  
     <h1 class="custom-heading">About Me</h1>
     <h3 class="custom-lines2"><br>Aspiring AI/ML Engineer 💻🧠 &nbsp; | &nbsp; Python Developer 🐍 &nbsp; | &nbsp; Full Stack Python Developer 🕸️</h3>
-    <br>
     """,
     unsafe_allow_html=True,
 )   
+    st.divider()
     cv_file_path = "ANANDAPADMANABHAN_CV.pdf"
     # Read the resume file
     with open(cv_file_path, "rb") as file:
@@ -20,7 +20,7 @@ def about():
         file_name="ANANDAPADMANABHAN_CV.pdf",
         mime="application/pdf",
     )
-
+    st.divider()
     st.markdown(
     """
     <h1 class="custom-heading2">EDUCATION</h1>
