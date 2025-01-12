@@ -113,6 +113,14 @@
     padding: 7px;
 }
 
+/* Custom lines for Education Details */
+.custom-details {
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 26px;
+    text-align: left;
+    padding: 7px;
+}
+
 /* Styling the Buttons */
 div.stButton > button {
     font-family: 'Atma', cursive !important;
