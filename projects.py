@@ -21,7 +21,7 @@ def projects():
             <br>
             """, unsafe_allow_html=True)
 
-
+        st.divider()
         col1, col2, col3, col4 = st.columns(4)
 
         with col1:
