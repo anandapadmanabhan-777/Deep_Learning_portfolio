@@ -15,7 +15,7 @@ def about():
 )
     # Section: Resume / CV
     st.header("CV")
-    resume_file_path = "anandapadmanabhan_cv.pdf"
+    resume_file_path = "ANANDAPADMANABHAN_CV.pdf"
     # Embed PDF Viewer
     st.markdown(
         f"""
