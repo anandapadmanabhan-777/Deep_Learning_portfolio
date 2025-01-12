@@ -33,9 +33,10 @@
     text-align: center;
     align-items: center;
     justify-content: center;
-
+    max-width: 800px;
     /* Center the container on the page */
     display: flex;
+    text-align: center;
 }
 
 
