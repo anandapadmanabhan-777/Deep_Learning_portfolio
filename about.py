@@ -26,7 +26,7 @@ def about():
         <div class="content-container">
             <h1 class="custom-heading2">TECHNICAL SKILLS</h1>
             <h3 class="custom-details"><u>Programming Languages:</u></h3>
-            <h6 class="custom-details">Python | SQL</h6>
+            <h5 class="custom-details">Python | SQL</h5>
             <h3 class="custom-details"><u>Techniques:</u></h3>
             <h3 class="custom-details">Data Preprocessing | Data Augmentation | Model Development | Testing | Analysis | Optimization | UI Development | Image Processing | Pattern Recognition</h3>
             <h3 class="custom-details"><u>Machine Learning and Deep Learning Libraries and Frameworks:</u></h3>
