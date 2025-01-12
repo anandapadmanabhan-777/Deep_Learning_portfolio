@@ -115,7 +115,7 @@
 
 /* Custom lines for Education Details */
 .custom-details {
-    font-family: Consolas, 'Courier New', monospace !important;
+    font-family: Monaco, monospace !important;
     font-size: 18px;
     text-align: left;
     padding: 7px;
