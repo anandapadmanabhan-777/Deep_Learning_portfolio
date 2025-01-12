@@ -16,8 +16,9 @@ def projects():
     if st.session_state.selected_project == "None":
         
         st.markdown("""
-           
+           <div class="content-container">
             <h1 class="custom-heading">AI/ML Projects</h1>
+            </div>
             """, unsafe_allow_html=True)
 
         st.divider()
