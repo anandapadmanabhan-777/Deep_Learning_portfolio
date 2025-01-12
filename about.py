@@ -28,11 +28,11 @@ def about():
             <h3 class="custom-details"><u>Programming Languages:</u></h3>
             <h5 class="custom-details">Python | SQL</h5>
             <h3 class="custom-details"><u>Techniques:</u></h3>
-            <h3 class="custom-details">Data Preprocessing | Data Augmentation | Model Development | Testing | Analysis | Optimization | UI Development | Image Processing | Pattern Recognition</h3>
+            <h5 class="custom-details">Data Preprocessing | Data Augmentation | Model Development | Testing | Analysis | Optimization | UI Development | Image Processing | Pattern Recognition</h5>
             <h3 class="custom-details"><u>Machine Learning and Deep Learning Libraries and Frameworks:</u></h3>
-            <h3 class="custom-details">NumPy | Pandas | Scikit-learn (sklearn) | Matplotlib | Seaborn | Plotly | OpenCV | TensorFlow | Keras | PyTorch</h3>
+            <h5 class="custom-details">NumPy | Pandas | Scikit-learn (sklearn) | Matplotlib | Seaborn | Plotly | OpenCV | TensorFlow | Keras | PyTorch</h5>
             <h3 class="custom-details"><u>Development and Deployment Tools:</u></h3>
-            <h3 class="custom-details">Docker | Git | GitHub | VS Code | Streamlit | GCP | AWS | CI/CD | Tableau</h3>
+            <h5 class="custom-details">Docker | Git | GitHub | VS Code | Streamlit | GCP | AWS | CI/CD | Tableau</h5>
         </div>
         """,
         unsafe_allow_html=True,
