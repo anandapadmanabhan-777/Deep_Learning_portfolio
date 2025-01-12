@@ -5,7 +5,7 @@ def description():
         <div class="content-container">
 
         <h3 class="custom-heading3">1. <u>Customer Churn Prediction</u>:</h3>
-        <h4 class="custom-details">Built an Artificial Neural Network (ANN) model to predict customer churn based on customer attributes, providing actionable insights to enhance retention strategies.</h4>
+        <h5 class="custom-details">Built an Artificial Neural Network (ANN) model to predict customer churn based on customer attributes, providing actionable insights to enhance retention strategies.</h5>
 
         <h3 class="custom-heading3">2. <u>Credit Card Fraud Detection</u>:</h3>
         <h4 class="custom-details">A machine learning model to detect fraudulent credit card transactions, ensuring high accuracy and reducing false positives through advanced anomaly detection techniques.</h4>
