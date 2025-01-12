@@ -26,7 +26,7 @@ def about():
         div.stDownloadButton > button {
             font-family: 'Atma', cursive !important;
             font-size: 30px !important;
-            width: 100%;
+            width: 150px;
             height: 60px;
             background-color: #ffffff;
             color: rgb(0, 0, 0);
