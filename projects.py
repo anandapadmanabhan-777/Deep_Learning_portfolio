@@ -15,11 +15,12 @@ def projects():
     # Main Projects Page
     if st.session_state.selected_project == "None":
         
-        st.markdown("""
-           <div class="content-container">
+        st.markdown(
+            """
             <h1 class="custom-heading">AI/ML Projects</h1>
-            </div>
-            """, unsafe_allow_html=True)
+            """,
+            unsafe_allow_html=True,
+            )
 
         st.divider()
         col1, col2, col3, col4, col5 = st.columns(5)
