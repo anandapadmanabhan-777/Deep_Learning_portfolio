@@ -38,9 +38,10 @@ def about():
 
     st.markdown(
     """
-    <h1 class="custom-heading2">EDUCATION</h1>
-    <h3 class="custom-lines3"> &nbsp; ● BTech in Infomation Technology<br> &nbsp; ● Diploma in Computer Engineering</h3>
-    
+    <div class="content-container">
+        <h1 class="custom-heading2">EDUCATION</h1>
+        <h3 class="custom-lines3"> &nbsp; ● BTech in Infomation Technology<br> &nbsp; ● Diploma in Computer Engineering</h3>
+    </div>
     """,
     unsafe_allow_html=True,
 )
