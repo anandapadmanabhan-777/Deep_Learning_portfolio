@@ -18,30 +18,16 @@ def about():
     with open(cv_file_path, "rb") as file:
         cv_data = file.read()
 
-    # Inject CSS for global styling
-    st.markdown(
-        """
-        <style>
-        /* Style for all download buttons */
-        div.stDownloadButton > button {
-            font-family: 'Atma', cursive !important;
-            font-size: 30px !important;
-            width: 150px;
-            height: 60px;
-            background-color: #ffffff;
-            color: rgb(0, 0, 0);
-            border: none;
-            border-radius: 50px;
-        }
-
-        div.stDownloadButton > button:hover {
-            background-color: #ffe9c9;
-            color: #000000;
-        }
-        </style>
-        """,
-        unsafe_allow_html=True,
-    )
+    # # Inject CSS for global styling
+    # st.markdown(
+    #     """
+    #     <style>
+    #     /* Style for all download buttons */
+        
+    #     </style>
+    #     """,
+    #     unsafe_allow_html=True,
+    # )
 
     # Download Button
     st.download_button(
