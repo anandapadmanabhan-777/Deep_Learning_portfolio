@@ -17,8 +17,6 @@ def projects():
         st.markdown("""
            
             <h1 class="custom-heading">AI/ML Projects</h1>
-           
-            <br>
             """, unsafe_allow_html=True)
 
         st.divider()
