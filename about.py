@@ -25,10 +25,10 @@ def about():
         """
         <h1 class="custom-heading2">TECHNICAL SKILLS</h1>
         <h3 class="custom-details">
-            &nbsp; ● Programming Languages: Python, SQL<br> 
-            &nbsp; ● Techniques: Data Preprocessing, Data Augmentation, Model Development, Testing, Analysis, Optimization, UI Development, Image Processing, Pattern Recognition<br>
-            &nbsp; ● Machine Learning and Deep Learning Libraries and Frameworks: NumPy, Pandas, Scikit-learn (sklearn), Matplotlib, Seaborn, Plotly, OpenCV, TensorFlow, Keras, PyTorch<br>
-            &nbsp; ● Development and Deployment Tools: Docker, Git, GitHub, VS Code, Streamlit, GCP, AWS, CI/CD, Tableau
+             ● Programming Languages: Python | SQL<br> 
+             ● Techniques: Data Preprocessing, Data Augmentation, Model Development, Testing, Analysis, Optimization, UI Development, Image Processing, Pattern Recognition<br>
+             ● Machine Learning and Deep Learning Libraries and Frameworks: NumPy, Pandas, Scikit-learn (sklearn), Matplotlib, Seaborn, Plotly, OpenCV, TensorFlow, Keras, PyTorch<br>
+             ● Development and Deployment Tools: Docker, Git, GitHub, VS Code, Streamlit, GCP, AWS, CI/CD, Tableau
         </h3>
 
         """,
