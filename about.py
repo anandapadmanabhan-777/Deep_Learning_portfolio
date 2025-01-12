@@ -20,6 +20,20 @@ def about():
         file_name="ANANDAPADMANABHAN_CV.pdf",
         mime="application/pdf",
     )
+    
+    st.markdown(
+        """
+        <h1 class="custom-heading2">TECHNICAL SKILLS</h1>
+        <h3 class="custom-lines3">
+            &nbsp; ● Programming Languages: Python, SQL<br> 
+            &nbsp; ● Techniques: Data Preprocessing, Data Augmentation, Model Development, Testing, Analysis, Optimization, UI Development, Image Processing, Pattern Recognition<br>
+            &nbsp; ● Machine Learning and Deep Learning Libraries and Frameworks: NumPy, Pandas, Scikit-learn (sklearn), Matplotlib, Seaborn, Plotly, OpenCV, TensorFlow, Keras, PyTorch<br>
+            &nbsp; ● Development and Deployment Tools: Docker, Git, GitHub, VS Code, Streamlit, GCP, AWS, CI/CD, Tableau
+        </h3>
+
+        """
+    )
+
     st.markdown(
     """
     <h1 class="custom-heading2">EDUCATION</h1>
