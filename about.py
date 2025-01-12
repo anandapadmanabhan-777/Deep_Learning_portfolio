@@ -13,3 +13,25 @@ def about():
     """,
     unsafe_allow_html=True,
 )
+    # Section: Resume / CV
+    st.header("CV")
+    resume_file_path = "anandapadmanabhan_cv.pdf"
+    # Embed PDF Viewer
+    st.markdown(
+        f"""
+        <iframe src="{resume_file_path}" width="700" height="500" style="border: none;"></iframe>
+        """,
+        unsafe_allow_html=True,
+    )
+
+    # Read the resume file
+    with open(resume_file_path, "rb") as file:
+        resume_data = file.read()
+
+    # Download Button
+    st.download_button(
+        label="Download Resume",
+        data=resume_data,
+        file_name="Resume.pdf",
+        mime="application/pdf",
+    )
