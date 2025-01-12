@@ -4,7 +4,7 @@ def about():
     st.markdown(
     """  
     <h1 class="custom-heading">About Me</h1>
-    <h3 class="custom-lines2"><br>Aspiring AI/ML Engineer 💻🧠 &nbsp; | &nbsp; Python Developer 🐍 &nbsp; | &nbsp; Full Stack Python Developer 🕸️</h3>
+    <h3 class="custom-lines2">Aspiring AI/ML Engineer 💻🧠 &nbsp; | &nbsp; Python Developer 🐍 &nbsp; | &nbsp; Full Stack Python Developer 🕸️</h3>
     """,
     unsafe_allow_html=True,
 )   
