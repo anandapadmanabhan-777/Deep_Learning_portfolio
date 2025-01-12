@@ -24,22 +24,6 @@
     border-radius: 10px;    
 }
 
-/* Center the container on the page */
-.content-container3 {
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 15px;
-    border-radius: 10px; 
-    width: fit-content;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    max-width: 800px;
-    /* Center the container on the page */
-    display: flex;
-    text-align: center;
-}
-
-
 .content-container2 {
     display: flex; /* Enable Flexbox */
     justify-content: center; /* Center horizontally */
@@ -47,9 +31,8 @@
     background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
     padding: 15px; /* Consistent padding */
     border-radius: 10px; /* Rounded corners */
-    max-width: 800px; /* Restrict width */
+    max-width: 1200px; /* Restrict width */
     width: fit-content; /* Fit to content size */
-    
     margin: auto; /* Center the content */
     box-sizing: border-box; /* Include padding in width/height */
     text-align: center !important; /* Center-align text */
