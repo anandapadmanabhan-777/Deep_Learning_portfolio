@@ -97,6 +97,7 @@
 
 #END
 import streamlit as st
+import base64
 
 def about():
     st.markdown(
@@ -106,27 +107,30 @@ def about():
             <h3 class="custom-lines2"><br>Aspiring AI/ML Engineer 💻🧠 &nbsp; | &nbsp; Python Developer 🐍 &nbsp; | &nbsp; Full Stack Python Developer 🕸️</h3>
             <br>
             <h1 class="custom-heading2">EDUCATION</h1>
-            <h3 class="custom-lines3"> &nbsp; ● BTech in Infomation Technology<br> &nbsp; ● Diploma in Computer Engineering</h3>
+            <h3 class="custom-lines3"> &nbsp; ● BTech in Information Technology<br> &nbsp; ● Diploma in Computer Engineering</h3>
         </div>
         """,
         unsafe_allow_html=True,
     )
 
     st.header("CV")
-    # Serve the PDF via HTTP
     resume_file_path = "static/ANANDAPADMANABHAN_CV.pdf"
 
-    # Embed PDF Viewer
-    st.markdown(
-        f"""
-        <iframe src="{resume_file_path}" width="700" height="500" style="border: none;"></iframe>
-        """,
-        unsafe_allow_html=True,
-    )
-
-    # Read the resume file for download
+    # Read the resume file and encode it as Base64
     with open(resume_file_path, "rb") as file:
         resume_data = file.read()
+        encoded_resume = base64.b64encode(resume_data).decode("utf-8")
+
+    # Embed PDF Viewer using Base64
+    pdf_viewer = f"""
+    <iframe
+        src="data:application/pdf;base64,{encoded_resume}"
+        width="700"
+        height="500"
+        style="border: none;"
+    ></iframe>
+    """
+    st.markdown(pdf_viewer, unsafe_allow_html=True)
 
     # Download Button
     st.download_button(
