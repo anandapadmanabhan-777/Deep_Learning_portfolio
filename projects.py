@@ -20,10 +20,11 @@ def projects():
             <div class="content-container2">
                 <h1 class="custom-heading"> &nbsp; AI/ML Projects</h1>
             </div>
+            <br>
             """,
             unsafe_allow_html=True,
             )
-
+        
         #st.divider()
         col1, col2, col3, col4, col5 = st.columns(5)
 
