@@ -43,7 +43,10 @@ def about():
     <div class="content-container">
         <h1 class="custom-heading2">EDUCATION</h1>
         <h4 class="custom-details"> &nbsp; ● BTech in Infomation Technology<br> &nbsp; ● Diploma in Computer Engineering<br> &nbsp; ● 12th - HSE <br> &nbsp; ● 10th - CBSE</h4>
+        <h1 class="custome-heading2">NON-TECHNICAL SKILLS</h1>
+        <h5 class="custom-details">Problem-Solving | Critical Thinking | Attention to Detail | Communication | Collaboration | Time Management</h5>
     </div>
+
     """,
     unsafe_allow_html=True,
 )
