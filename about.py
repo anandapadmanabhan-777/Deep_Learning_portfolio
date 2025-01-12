@@ -28,6 +28,10 @@ def about():
         <h3 class="custom-details">● Techniques: <br> &nbsp; &nbsp; Data Preprocessing | Data Augmentation | Model Development | Testing | Analysis | Optimization | UI Development | Image Processing | Pattern Recognition</h3>
         <h3 class="custom-details">● Machine Learning and Deep Learning Libraries and Frameworks: <br> &nbsp; &nbsp; NumPy | Pandas | Scikit-learn (sklearn) | Matplotlib | Seaborn | Plotly | OpenCV | TensorFlow | Keras | PyTorch</h3>
         <h3 class="custom-details">● Development and Deployment Tools: <br> &nbsp; &nbsp; Docker | Git | GitHub | VS Code | Streamlit | GCP | AWS | CI/CD | Tableau</h3>
+        <ol class="custom-details">
+        <li class="custom-details">Python</li>
+        <li>SQL</li>
+    </ol>
         """,
         unsafe_allow_html=True,
     )
