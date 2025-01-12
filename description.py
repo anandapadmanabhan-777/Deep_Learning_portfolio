@@ -6,7 +6,7 @@ def description():
         <h2 class="custom-heading2">1. MNIST Digit Recognition:</h2>
         <h4 class="custom-details">A deep learning project that classifies handwritten digits using the MNIST dataset. Implemented with Convolutional Neural Networks (CNNs) for accurate digit recognition.</h4>
 
-        <h1 class="custom-heading2">2. Fashion MNIST Classification:</h1>
+        <h3 class="custom-heading2">2. Fashion MNIST Classification:</h3>
         <h4 class="custom-details">A machine learning project for categorizing Zalando’s fashion items (shirts, shoes, bags) into predefined classes using neural networks.</h4>
 
         <h1 class="custom-heading2">3. Credit Card Fraud Detection:</h1>
