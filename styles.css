@@ -145,6 +145,22 @@ div.stButton > button:has-text("Back to Projects"):hover {
     color: white;
 }
 
+div.stDownloadButton > button {
+    font-family: 'Atma', cursive !important;
+    font-size: 30px !important;
+    width: 150px;
+    height: 60px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 50px;
+}
+
+div.stDownloadButton > button:hover {
+    background-color: #ffe9c9;
+    color: #000000;
+}
+
 /* Hide Streamlit's built-in sidebar navigation */
 #MainMenu { visibility: hidden; }
 footer { visibility: hidden; }
