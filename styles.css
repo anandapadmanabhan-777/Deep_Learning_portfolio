@@ -30,8 +30,8 @@
     align-items: center; /* Center vertically */
     background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
     padding: 15px; /* Consistent padding */
-    border-radius: 10px; /* Rounded corners */
-    max-width: 1200px; /* Restrict width */
+    border-radius: 15px; /* Rounded corners */
+    max-width: 1300px; /* Restrict width */
     width: fit-content; /* Fit to content size */
     margin: auto; /* Center the content */
     box-sizing: border-box; /* Include padding in width/height */
