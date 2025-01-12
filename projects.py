@@ -17,7 +17,9 @@ def projects():
         
         st.markdown(
             """
-            <h1 class="custom-heading">AI/ML Projects</h1>
+            <div class="content-container2">
+                <h1 class="custom-heading"> &nbsp; AI/ML Projects</h1>
+            </div>
             """,
             unsafe_allow_html=True,
             )
