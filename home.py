@@ -3,8 +3,8 @@ import streamlit as st
 def home():
     st.markdown(
     """
-    <div class="content-container">
-        <h1 class="custom-heading3">Welcome to My AI & ML Project Portfolio..!!</h1>
+    <div class="content-container3">
+        <h1 class="custom-heading">Welcome to My AI & ML Project Portfolio..!!</h1>
     </div>
     <br>
     <h1 class= "name-heading">Hello, I'm<br> Anandapadmanabhan..!!</h1>
