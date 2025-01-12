@@ -5,6 +5,7 @@ import mnist_page as mn
 import fraud_detect_page as fr
 import churn_page as ch
 import temperature_page as te
+import description as dr
 
 def projects():
     # Initialize session state for navigation
@@ -49,6 +50,8 @@ def projects():
                 st.session_state.selected_project = "Temperature"
                 st.rerun()
         st.divider()
+        dr.description()
+
 
 
     # Render Specific Project Page
