@@ -116,9 +116,9 @@
 /* Custom lines for Education Details */
 .custom-details {
     font-family: 'Lucida Console', monospace !important;
-    font-size: 18px;
+    font-size: 16px;
     text-align: left;
-    padding: 7px;
+    padding: 4px;
 }
 
 /* Styling the Buttons */
