@@ -20,7 +20,6 @@ def about():
         file_name="ANANDAPADMANABHAN_CV.pdf",
         mime="application/pdf",
     )
-    st.divider()
     st.markdown(
     """
     <h1 class="custom-heading2">EDUCATION</h1>
