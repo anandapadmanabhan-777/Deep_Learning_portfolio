@@ -3,17 +3,18 @@ import pandas as pd
 from keras.models import load_model
 
 def fraud_detect_page():
-    # Try to load the trained model
-    try:
-        fraud_detect_model = load_model('fraud_detect_model.keras')
-        st.success("Model loaded successfully.")
-        st.markdown(
+    st.markdown(
             """
             <h1 class="name-heading">Credit Card Fraud Detection</h1>
             <h3 class="custom-subheader">Fill out the form below to predict whether a transaction is fraudulent or not.</h3>
             """,
             unsafe_allow_html=True,
         )
+    # Try to load the trained model
+    try:
+        fraud_detect_model = load_model('fraud_detect_model.keras')
+        st.success("Model loaded successfully.")
+        
     except Exception as e:
         st.error(f"Error loading the model: {e}")
         fraud_detect_model = None  # Set the model to None if it fails to load
