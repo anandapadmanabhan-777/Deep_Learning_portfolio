@@ -3,10 +3,20 @@ import numpy as np
 import pandas as pd
 from tensorflow.keras.models import load_model
 from sklearn.preprocessing import StandardScaler
+
 def temperature_page():
+    st.markdown(
+        """
+        <h1 class="name-heading">Temperature Prediction</h1>
+        <h3 class="custom-subheader">Fill out the form below to predict the temperature of the next day using CNN-RNN hybrid model.</h3>
+        """,
+        unsafe_allow_html=True,
+    )
+
     # Load the trained model
     try:
         model = load_model('Predict_Temperature.keras')
+        st.success("Model loaded successfully.")
     except Exception as e:
         st.error(f"Error loading the model: {e}")
         model = None
@@ -24,9 +34,6 @@ def temperature_page():
             historical_data = None
 
         if historical_data is not None:
-            # Title and description
-            st.title("Temperature Prediction App")
-            st.subheader("This app uses a CNN-RNN hybrid model to predict temperature of the next day.")
             st.divider()
 
             # Input form for user data
