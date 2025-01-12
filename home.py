@@ -4,7 +4,7 @@ def home():
     st.markdown(
     """
     <div class="content-container2">
-        <h1 class="custom-heading">Welcome to My AI & ML Project Portfolio..!!</h1>
+        <h1 class="custom-heading"> &nbsp; Welcome to My AI & ML Project Portfolio..!!</h1>
     </div>
     <br>
     <h1 class= "name-heading">Hello, I'm<br> Anandapadmanabhan..!!</h1>
