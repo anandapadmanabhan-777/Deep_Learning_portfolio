@@ -23,6 +23,7 @@ def about():
     
     st.markdown(
         """
+        <br>
         <div class="content-container">
             <h1 class="custom-heading2">TECHNICAL SKILLS</h1>
             <h3 class="custom-details"><u>Programming Languages:</u></h3>
