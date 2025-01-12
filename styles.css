@@ -23,7 +23,7 @@
     padding: 20px;
     border-radius: 10px;    
 }
-
+/* HomePage Main Heading Container*/
 .content-container2 {
     display: flex; /* Enable Flexbox */
     justify-content: center !important; /* Center horizontally */
