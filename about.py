@@ -31,7 +31,8 @@ def about():
             &nbsp; ● Development and Deployment Tools: Docker, Git, GitHub, VS Code, Streamlit, GCP, AWS, CI/CD, Tableau
         </h3>
 
-        """
+        """,
+        unsafe_allow_html=True,
     )
 
     st.markdown(
