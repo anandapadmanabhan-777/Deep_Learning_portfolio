@@ -24,7 +24,7 @@ def about():
     st.markdown(
         """
         <h1 class="custom-heading2">TECHNICAL SKILLS</h1>
-        <h3 class="custom-details">● Programming Languages:</h3>
+        <h3 class="custom-details"><u>Programming Languages:</u></h3>
         <h3 class="custom-details">Python | SQL</h3>
         &nbsp; &nbsp; 
         <h3 class="custom-details">● Techniques: </h3>
