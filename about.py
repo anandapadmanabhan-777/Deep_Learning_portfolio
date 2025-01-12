@@ -19,7 +19,7 @@ def about():
         cv_data = file.read()
 
     # Download Button
-    st.download_button(
+    st.button(
         label="Download CV",
         data=cv_data,
         file_name="ANANDAPADMANABHAN_CV.pdf",
