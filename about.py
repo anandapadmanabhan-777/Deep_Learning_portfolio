@@ -26,8 +26,8 @@ def about():
         <h1 class="custom-heading2">TECHNICAL SKILLS</h1>
         <h3 class="custom-details">● Programming Languages: Python | SQL</h3>
         <h3 class="custom-details">● Techniques: Data Preprocessing | Data Augmentation | Model Development | Testing | Analysis | Optimization | UI Development | Image Processing | Pattern Recognition</h3>
-        <h3 class="custom-details">● Machine Learning and Deep Learning Libraries and Frameworks: NumPy, Pandas, Scikit-learn (sklearn), Matplotlib, Seaborn, Plotly, OpenCV, TensorFlow, Keras, PyTorch</h3>
-        <h3 class="custom-details">● Development and Deployment Tools: Docker, Git, GitHub, VS Code, Streamlit, GCP, AWS, CI/CD, Tableau</h3>
+        <h3 class="custom-details">● Machine Learning and Deep Learning Libraries and Frameworks: NumPy | Pandas | Scikit-learn (sklearn) | Matplotlib | Seaborn | Plotly | OpenCV | TensorFlow | Keras | PyTorch</h3>
+        <h3 class="custom-details">● Development and Deployment Tools: Docker | Git | GitHub | VS Code | Streamlit | GCP | AWS | CI/CD | Tableau</h3>
         """,
         unsafe_allow_html=True,
     )
