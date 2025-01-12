@@ -24,6 +24,14 @@
     border-radius: 10px;    
 }
 
+/* Container */
+.content-container3 {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    border-radius: 10px; 
+    width: fit-content;   
+}
+
 .content-container2 {
     display: flex; /* Enable Flexbox */
     justify-content: center; /* Center horizontally */
