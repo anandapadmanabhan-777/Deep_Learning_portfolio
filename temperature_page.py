@@ -34,7 +34,7 @@ def temperature_page():
             historical_data = None
 
         if historical_data is not None:
-            st.divider()
+            
 
             # Input form for user data
             with st.form(key="input_form"):
