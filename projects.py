@@ -48,6 +48,7 @@ def projects():
             if st.button("Temperature Prediction"):
                 st.session_state.selected_project = "Temperature"
                 st.rerun()
+        st.divider()
 
 
     # Render Specific Project Page
