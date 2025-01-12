@@ -24,7 +24,8 @@ def about():
     st.markdown(
         """
         <h1 class="custom-heading2">TECHNICAL SKILLS</h1>
-        <h3 class="custom-details">● Programming Languages: <br> &nbsp; &nbsp; Python | SQL</h3>
+        <h3 class="custom-details">● Programming Languages:</h3>
+        <h3 class="custom-details">&nbsp; &nbsp; Python | SQL</h3>
         <h3 class="custom-details">● Techniques: <br> &nbsp; &nbsp; Data Preprocessing | Data Augmentation | Model Development | Testing | Analysis | Optimization | UI Development | Image Processing | Pattern Recognition</h3>
         <h3 class="custom-details">● Machine Learning and Deep Learning Libraries and Frameworks: <br> &nbsp; &nbsp; NumPy | Pandas | Scikit-learn (sklearn) | Matplotlib | Seaborn | Plotly | OpenCV | TensorFlow | Keras | PyTorch</h3>
         <h3 class="custom-details">● Development and Deployment Tools: <br> &nbsp; &nbsp; Docker | Git | GitHub | VS Code | Streamlit | GCP | AWS | CI/CD | Tableau</h3>
