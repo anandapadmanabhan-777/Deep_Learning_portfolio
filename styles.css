@@ -29,7 +29,9 @@
     background-color: rgba(0, 0, 0, 0.5);
     padding: 15px;
     border-radius: 10px; 
-    width: fit-content;   
+    width: fit-content;
+    text-align: center !important;
+
 }
 
 .content-container2 {
