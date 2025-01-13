@@ -3,6 +3,17 @@ import pandas as pd
 from keras.models import load_model
 
 def churn_page():
+
+    # Add hyperlink
+    st.markdown(
+        """
+        <a href="https://example.com" target="_blank" style="text-decoration: none;">
+            <h3 style="color: #0066cc; text-align: center;">Learn More About Customer Churn Prediction</h3>
+        </a>
+        """,
+        unsafe_allow_html=True,
+    )
+
     st.markdown(
         """
         <h1 class="name-heading">Customer Churn Prediction</h1>
