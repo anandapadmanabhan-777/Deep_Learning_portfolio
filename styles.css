@@ -50,6 +50,15 @@
 }
 
 /* Custom Heading Style */
+.aiml-heading {
+    font-family: 'Atma', cursive !important;
+    font-size: 50px !important;
+    text-align: center;
+    color: #cec7ae !important;
+    
+}
+
+/* Custom Heading Style */
 .custom-heading2 {
     font-family: 'Atma', cursive !important;
     font-size: 40px;
