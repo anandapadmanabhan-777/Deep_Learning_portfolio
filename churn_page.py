@@ -8,7 +8,7 @@ def churn_page():
     st.markdown(
         """
         <a href="https://colab.research.google.com/drive/18WN_zGtDbkpI5HbkJGqCNOuk3P1_2DhO?usp=sharing" target="_blank" style="text-decoration: none;">
-            <h3 style="color: #cec7ae; text-align: left;">View Customer Churn Prediction Model</h3>
+            <h3 style="color: #cec7ae; text-align: left;">Click here to view Customer Churn Prediction Model</h3>
         </a>
         """,
         unsafe_allow_html=True,
