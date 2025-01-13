@@ -19,7 +19,7 @@ def projects():
         st.markdown(
             """
             <div class="content-container2">
-                <h1 class="custom-heading3"> &nbsp; AI/ML Projects</h1>
+                <h1 class="aiml-heading"> &nbsp; AI/ML Projects</h1>
             </div>
             <br>
             """,
