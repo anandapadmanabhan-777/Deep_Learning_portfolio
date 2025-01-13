@@ -3,7 +3,9 @@ import streamlit as st
 def about():
     st.markdown(
     """  
-    <h1 class="aiml-heading">About Me</h1>
+    <div class="content-container2">
+        <h1 class="aiml-heading">About Me</h1>
+    </div>
     <h3 class="custom-lines2">Aspiring AI/ML Engineer 💻🧠 &nbsp; | &nbsp; Python Developer 🐍 &nbsp; | &nbsp; Full Stack Python Developer 🕸️</h3>
     """,
     unsafe_allow_html=True,
