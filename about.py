@@ -6,6 +6,7 @@ def about():
     <div class="content-container2">
         <h1 class="aiml-heading"> &nbsp; About Me</h1>
     </div>
+    <br>
     <h3 class="custom-lines2">Aspiring AI/ML Engineer 💻🧠 &nbsp; | &nbsp; Python Developer 🐍 &nbsp; | &nbsp; Full Stack Python Developer 🕸️</h3>
     """,
     unsafe_allow_html=True,
