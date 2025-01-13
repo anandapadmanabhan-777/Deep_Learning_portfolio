@@ -28,7 +28,7 @@ def about():
         """
         <br>
         <div class="content-container">
-            <h1 class="custom-heading2">TECHNICAL SKILLS</h1>
+            <h1 class="custom-heading3">TECHNICAL SKILLS</h1>
             <h3 class="custom-details"><u>Programming Languages:</u></h3>
             <h5 class="custom-details">Python | SQL</h5>
             <h3 class="custom-details"><u>Techniques:</u></h3>
@@ -45,11 +45,11 @@ def about():
     st.markdown(
     """
     <div class="content-container">
-        <h1 class="custom-heading2">EDUCATION</h1>
+        <h1 class="custom-heading3">EDUCATION</h1>
         <h4 class="custom-details"> &nbsp; ● BTech in Infomation Technology<br> &nbsp; ● Diploma in Computer Engineering<br> &nbsp; ● 12th - HSE <br> &nbsp; ● 10th - CBSE</h4>
-        <h1 class="custom-heading2">NON-TECHNICAL SKILLS</h1>
+        <h1 class="custom-heading3">NON-TECHNICAL SKILLS</h1>
         <h5 class="custom-details">Problem-Solving | Critical Thinking | Attention to Detail | Communication | Collaboration | Time Management</h5>
-        <h1 class="custom-heading2">LANGUAGES</h1>
+        <h1 class="custom-heading3">LANGUAGES</h1>
         <h5 class="custom-details">English | Malayalam | Hindi | Tamil</h5>
     </div>
 
