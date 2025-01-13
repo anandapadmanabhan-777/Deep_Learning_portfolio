@@ -4,7 +4,7 @@ def about():
     st.markdown(
     """  
     <div class="content-container2">
-        <h1 class="aiml-heading">About Me</h1>
+        <h1 class="aiml-heading"> &nbsp; About Me</h1>
     </div>
     <h3 class="custom-lines2">Aspiring AI/ML Engineer 💻🧠 &nbsp; | &nbsp; Python Developer 🐍 &nbsp; | &nbsp; Full Stack Python Developer 🕸️</h3>
     """,
