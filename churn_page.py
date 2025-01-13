@@ -13,6 +13,30 @@ def churn_page():
         """,
         unsafe_allow_html=True,
     )
+    # Add hyperlink as a button
+    st.markdown(
+        """
+        <a href="https://colab.research.google.com/drive/18WN_zGtDbkpI5HbkJGqCNOuk3P1_2DhO?usp=sharing" target="_blank">
+            <button style="
+                background-color: #cec7ae;
+                color: #000;
+                border: none;
+                padding: 10px 20px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 10px 2px;
+                cursor: pointer;
+                border-radius: 5px;
+            ">
+                View Customer Churn Prediction Model
+            </button>
+        </a>
+        """,
+        unsafe_allow_html=True,
+    )
+
 
     st.markdown(
         """
