@@ -43,3 +43,7 @@ def home():
     """,
     unsafe_allow_html=True,    
 )
+    # Navigation button
+    if st.button("Explore AI/ML Projects"):
+        st.session_state.menu_selection = "AI/ML Projects"
+        st.rerun()
