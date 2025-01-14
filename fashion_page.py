@@ -53,3 +53,15 @@ def fashion_page():
                 st.error(f"Error processing the image: {e}")
     else:
         st.error("Model not loaded. Cannot make predictions.")
+
+    # Adding a Model View Button
+    st.markdown(
+        """
+        <a href="https://colab.research.google.com/drive/1rswTnnQ3Y9HQ7kivbsobDt5eenQnlqF7?usp=sharing" target="_blank">
+            <button class="hyperlink-button">
+                View Fashion-MNIST Classifier Model
+            </button>
+        </a>
+        """,
+        unsafe_allow_html=True,
+    )
