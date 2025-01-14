@@ -277,6 +277,7 @@ footer { visibility: hidden; }
     border-radius: 50px;
     cursor: pointer;
     text-align: center;
+    max-width: fit-content;
 }
 
 .hyperlink-button:hover {
