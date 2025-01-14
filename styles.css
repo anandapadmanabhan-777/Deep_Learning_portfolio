@@ -157,7 +157,7 @@ div.stButton > button:hover {
 
 /* Styling for "Back to Projects" buttons specifically */
 div.stButton > button[key="back"] {
-    width: 150px;
+    max-width: 150px;
     background-color: #ff6347; /* Customize color */
     color: white; /* Text color */
     border-radius: 5px; /* Adjust border-radius if needed */
