@@ -77,3 +77,15 @@ def fraud_detect_page():
 
     else:
         st.error("Model not loaded. Cannot show prediction form.")
+
+    # Adding a Model View Button
+    st.markdown(
+        """
+        <a href="https://github.com/anandapadmanabhan-777/Credit_Card_Fraud_Detection" target="_blank">
+            <button class="hyperlink-button">
+                View Fraud Detection Model
+            </button>
+        </a>
+        """,
+        unsafe_allow_html=True,
+    )
