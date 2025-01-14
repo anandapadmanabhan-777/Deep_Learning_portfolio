@@ -72,3 +72,15 @@ def temperature_page():
                     st.subheader(f"Predicted Temperature (°C): {prediction[0][0]:.2f}")
                 except Exception as e:
                     st.error(f"Error in processing or making prediction: {e}")
+            
+    # Adding a Model View Button
+    st.markdown(
+        """
+        <a href="https://github.com/anandapadmanabhan-777/Temperature_Prediction_App" target="_blank">
+            <button class="hyperlink-button">
+                View Fashion-MNIST Classifier Model
+            </button>
+        </a>
+        """,
+        unsafe_allow_html=True,
+    )
