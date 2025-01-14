@@ -123,3 +123,15 @@ def churn_page():
         """,
         unsafe_allow_html=True,
     )
+
+        # Add the hyperlink button with HTML
+    st.markdown(
+        """
+        <a href="https://colab.research.google.com/drive/18WN_zGtDbkpI5HbkJGqCNOuk3P1_2DhO?usp=sharing" target="_blank">
+            <button class="hyperlink-button">
+                View Customer Churn Prediction Model
+            </button>
+        </a>
+        """,
+        unsafe_allow_html=True,
+    )
