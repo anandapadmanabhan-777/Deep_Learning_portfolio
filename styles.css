@@ -267,7 +267,6 @@ footer { visibility: hidden; }
 
 /* Styling the Buttons */
 .hyperlink-button {
-    font-family: 'Atma', cursive !important;
     font-size: 30px !important;
     width: 100%;
     height: 60px;
