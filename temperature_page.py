@@ -78,7 +78,7 @@ def temperature_page():
         """
         <a href="https://github.com/anandapadmanabhan-777/Temperature_Prediction_App" target="_blank">
             <button class="hyperlink-button">
-                View Fashion-MNIST Classifier Model
+                View Temperature Prediction Model
             </button>
         </a>
         """,
