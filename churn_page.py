@@ -106,7 +106,7 @@ def churn_page():
                 font-size: 16px;
                 margin: 10px 2px;
                 cursor: pointer;
-                border-radius: 5px;
+                border-radius: 10px;
             ">
                 View Customer Churn Prediction Model
             </button>
