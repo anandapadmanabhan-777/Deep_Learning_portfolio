@@ -262,17 +262,3 @@ footer { visibility: hidden; }
     font-size: 18px;
     margin-top: 10px;
 }
-
-.button-style {
-    background-color: #cec7ae;
-    color: #000;
-    border: none;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 10px 2px;
-    cursor: pointer;
-    border-radius: 5px;
-}
