@@ -122,8 +122,9 @@ def churn_page():
             <button class="hyperlink-button">
                 View Customer Churn Prediction Model
             </button>
+            <br>
         </a>
-        <br>
+    
         """,
         unsafe_allow_html=True,
     )
