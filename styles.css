@@ -258,7 +258,7 @@ footer { visibility: hidden; }
     width: 50px;
 }
 .social-icons p {
-    font-family: 'Lora', sans-serif;
+    font-family: 'Lora', sans-serif !important;
     font-size: 18px;
     margin-top: 10px;
 }
