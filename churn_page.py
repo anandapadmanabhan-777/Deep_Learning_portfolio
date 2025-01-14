@@ -123,6 +123,7 @@ def churn_page():
                 View Customer Churn Prediction Model
             </button>
         </a>
+        <br>
         """,
         unsafe_allow_html=True,
     )
