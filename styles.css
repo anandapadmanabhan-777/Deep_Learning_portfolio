@@ -262,3 +262,25 @@ footer { visibility: hidden; }
     font-size: 18px;
     margin-top: 10px;
 }
+
+/* END
+
+/* Styling the Buttons */
+.hyperlink-button {
+    font-family: 'Atma', cursive !important;
+    font-size: 30px !important;
+    width: 100%;
+    height: 60px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.hyperlink-button:hover {
+    background-color: #ffe9c9;
+    color: #000000;
+    text-decoration: none;
+}
