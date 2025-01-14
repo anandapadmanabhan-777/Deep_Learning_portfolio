@@ -96,7 +96,7 @@ def churn_page():
         """
         <a href="https://colab.research.google.com/drive/18WN_zGtDbkpI5HbkJGqCNOuk3P1_2DhO?usp=sharing" target="_blank">
             <button style="
-                background-color: #cec7ae;
+                background-color: #ffffff;
                 color: #000;
                 border: none;
                 padding: 10px 20px;
