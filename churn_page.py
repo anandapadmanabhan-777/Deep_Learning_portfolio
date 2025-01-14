@@ -107,6 +107,7 @@ def churn_page():
             margin: 10px 2px;
             cursor: pointer;
             border-radius: 50px;
+            height: 60px;
         }
         .hyperlink-button:hover {
             background-color: #ffe9c9;
