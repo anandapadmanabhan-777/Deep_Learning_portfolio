@@ -45,3 +45,15 @@ def mnist_page():
                 st.error(f"Error processing the image: {e}")
     else:
         st.error("Model not loaded. Cannot make predictions.")
+
+    # Adding a Model View Button
+    st.markdown(
+        """
+        <a href="https://colab.research.google.com/drive/1mQDsRsR7DjVzXIM2WPQDJw8I7pXwW0D8?usp=sharing" target="_blank">
+            <button class="hyperlink-button">
+                View MNIST Digit Recognizer Model
+            </button>
+        </a>
+        """,
+        unsafe_allow_html=True,
+    )
