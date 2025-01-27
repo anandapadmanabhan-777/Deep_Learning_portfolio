@@ -27,7 +27,7 @@ def projects():
             )
         
         #st.divider()
-        col1, col2, col3, col4, col5 = st.columns(5)
+        col1, col2, col3, col4, col5, col6 = st.columns(6)
 
         with col1:
             if st.button("Customer Churn Prediction"):
@@ -48,6 +48,10 @@ def projects():
         with col5:
             if st.button("Temperature Prediction"):
                 st.session_state.selected_project = "Temperature"
+                st.rerun()
+        with col6:
+            if st.button("CIFAR-10 Classifier"):
+                st.session_state.selected_project = "CIFAR-10"
                 st.rerun()
         st.divider()
         dr.description()
@@ -79,6 +83,12 @@ def projects():
             st.session_state.selected_project = "None"
             st.rerun()
     elif st.session_state.selected_project == "Temperature":
+        te.temperature_page()
+        if st.button("Back to Projects"):
+            st.session_state.selected_project = "None"
+            st.rerun()
+
+    elif st.session_state.selected_project == "CIFAR-10":
         te.temperature_page()
         if st.button("Back to Projects"):
             st.session_state.selected_project = "None"
