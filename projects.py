@@ -5,6 +5,7 @@ import mnist_page as mn
 import fraud_detect_page as fr
 import churn_page as ch
 import temperature_page as te
+import cifar_page as ci
 import description as dr
 
 def projects():
@@ -89,7 +90,7 @@ def projects():
             st.rerun()
 
     elif st.session_state.selected_project == "CIFAR-10":
-        te.temperature_page()
+        ci.cifar_page()
         if st.button("Back to Projects"):
             st.session_state.selected_project = "None"
             st.rerun()
